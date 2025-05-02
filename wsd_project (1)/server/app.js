@@ -1,5 +1,5 @@
 
-import { Hono } from "https://deno.land/x/hono@v3.2.6/mod.js";
+import { Hono } from "https://deno.land/x/hono@v3.2.6/mod.ts";:contentReference[oaicite:19]{index=19}
 
 const app = new Hono();
 
