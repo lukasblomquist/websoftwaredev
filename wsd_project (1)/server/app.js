@@ -1,5 +1,5 @@
 
-import { Hono } from "https://deno.land/x/hono@v3.12.6/mod.js";
+import { Hono } from "https://deno.land/x/hono@v3.2.6/mod.js";
 
 const app = new Hono();
 
