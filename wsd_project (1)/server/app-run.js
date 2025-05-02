@@ -1,1 +1,3 @@
-// app-run.js placeholder
+import app from './app.js';
+
+Deno.serve(app.fetch);
