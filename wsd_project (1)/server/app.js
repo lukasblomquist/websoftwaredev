@@ -1,7 +1,11 @@
-
 import { Hono } from "https://deno.land/x/hono@v3.11.7/mod.ts";
+import { serveStatic } from "https://deno.land/x/hono@v3.11.7/middleware.ts";
 
 const app = new Hono();
+
+
+app.use("*", serveStatic({ root: "./client/dist" }));
+
 
 app.get('/courses', (c) => {
   return c.json({
